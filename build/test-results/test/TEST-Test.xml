@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-15T14:00:38.016Z" hostname="MacBook-Pro-de-Japhet.local" time="0.033">
+  <properties/>
+  <testcase name="isPlus()" classname="Test" time="0.028"/>
+  <testcase name="isMoins()" classname="Test" time="0.002"/>
+  <testcase name="isPlus2()" classname="Test" time="0.001"/>
+  <system-out><![CDATA[Starting tests
+Next test .... ->
+Done !
+Next test .... ->
+Done !
+Next test .... ->
+Done !
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
