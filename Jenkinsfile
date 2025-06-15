@@ -10,7 +10,9 @@ pipeline{
             }
         }
         stage("Build docker's image"){
-            sh 'docker run --rm $IMAGE_NAME'
+            steps{
+                sh 'docker run --rm $IMAGE_NAME'
+            }
         }
     }
 }
