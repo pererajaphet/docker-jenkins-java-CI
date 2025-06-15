@@ -15,3 +15,4 @@ Projet Java simple (addition/soustraction) utilisant **Gradle**, testé avec **J
 ```bash
 ./gradlew build
 ./gradlew test
+
