@@ -9,7 +9,7 @@ pipeline{
                 sh 'docker build -t $IMAGE_NAME .'
             }
         }
-        stage("Build docker's image"){
+        stage("Run Docker container"){
             steps{
                 sh 'docker run --rm $IMAGE_NAME'
             }
